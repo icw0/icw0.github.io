@@ -175,7 +175,7 @@ body {
   height: 100%;
 }
 body {
-  background: url("/images/background.jpg");
+  background: url("https://ww1.sinaimg.cn/large/008f1zNXgy1gmr444fma6j3140140qbd.jpg");
   background-repeat: no-repeat;
   background-attachment: fixed;
   background-position: 100% 80%;
@@ -1198,7 +1198,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #4118a7;
+  background: #ff47cc;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
