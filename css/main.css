@@ -175,11 +175,16 @@ body {
   height: 100%;
 }
 body {
-  background: var(--body-bg-color);
+  background: url("/images/background.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-position: 100% 80%;
+  background-size: cover;
   color: var(--text-color);
   font-family: 'Lato', "PingFang SC", "Microsoft YaHei", sans-serif;
   font-size: 1em;
   line-height: 2;
+  opacity: 0.78;
 }
 @media (max-width: 991px) {
   body {
@@ -1193,7 +1198,7 @@ pre .javascript .function {
 }
 .links-of-author a::before,
 .links-of-author span.exturl::before {
-  background: #9afffc;
+  background: #4118a7;
   border-radius: 50%;
   content: ' ';
   display: inline-block;
