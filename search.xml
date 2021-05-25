@@ -4,11 +4,36 @@
   
     
     <entry>
-      <title>2020年年终感想</title>
-      <link href="202101001.html"/>
-      <url>202101001.html</url>
+      <title>Markdown语法笔记</title>
+      <link href="Markdown%E8%AF%AD%E6%B3%95%E7%AC%94%E8%AE%B0-20210524.html"/>
+      <url>Markdown%E8%AF%AD%E6%B3%95%E7%AC%94%E8%AE%B0-20210524.html</url>
       
-        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>回首2020年，突发的疫情，打乱了很多人的生活。甚至有人为此丧生。还记得2019年年初，我曾立下了很多flag，截至到年底，一大部分目标都没完成。</p><a id="more"></a><h5 id="1-生活方面"><a class="header-anchor" href="#1-生活方面">¶</a>1.生活方面</h5><p>由于新冠的原因，20年过年期间在家呆了大半月，2月底才去工作，去被打工点又隔离了半个月。同样由于新冠肆虐，21年春节大概率外地过年<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="2021年春节部分省市疫情形势严峻">[1]</span></a></sup>，还是挺悲催的。真心希望，春节期间，疫情能够得到有效控制，能让人过个祥和年。希望人与人之间，能少点歧视，多点宽容。</p><p>21年个人数码产品如下列表:</p><ul><li>20年之前: mi6、荣耀8、宏碁笔电</li><li>20年购买:iphone6s、ipadmini5、神州笔电</li></ul><p>希望以上电子产品能再战3年，希望21年要理性消费。</p><h5 id="2-工作方面"><a class="header-anchor" href="#2-工作方面">¶</a>2.工作方面</h5><p>2月底返回工作岗位，实话实说，20年进度很小，工作也是一眼能看到头。家里也很少回<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="1是假少，2是来回路费太贵">[2]</span></a></sup>，工作地点也不固定，今天在这干一个月，明天在那干几月，最离谱的是快过年，又被掉走了，真的是金牌“替补”，工作任务是越来越重，工资是没长一分钱，而且还很不稳定，也是醉了。希望21年能找到让我满意的工作。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">2021年春节部分省市疫情形势严峻<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">1是假少，2是来回路费太贵<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>Markdown 是一种轻量级标记语言，它允许人们使用易读易写的纯文本格式编写文档，Markdown 编写的文档可以导出 HTML 、Word、图像、PDF、Epub 等多种格式的文档。</p><a id="more"></a><h5 id="1-软件推荐"><a class="header-anchor" href="#1-软件推荐">¶</a>1.软件推荐</h5><ul><li><a href="https://typora.io/">typora</a>、</li></ul><h5 id="2-基础语法"><a class="header-anchor" href="#2-基础语法">¶</a>2.基础语法</h5><figure class="highlight plain"><table><tr><td class="gutter"><pre><span class="line">1</span><br><span class="line">2</span><br><span class="line">3</span><br><span class="line">4</span><br><span class="line">5</span><br><span class="line">6</span><br><span class="line">7</span><br><span class="line">8</span><br><span class="line">9</span><br><span class="line">10</span><br><span class="line">11</span><br><span class="line">12</span><br><span class="line">13</span><br><span class="line">14</span><br></pre></td><td class="code"><pre><span class="line">2-1大纲分级: # 一级标题； ## 二级标题、、、###### 六级标题</span><br><span class="line">2-2无序列表: - 我生待明月&#x2F;万事成蹉跎 有序列表: 1. &#x2F;2. &#x2F;3.</span><br><span class="line">2-3链接写法: [百度](baidu.com) &#x2F;带title: [百度](baidu.com &quot;中文搜索引擎&quot;)</span><br><span class="line">2-4图片插入: 普通: ![](link) &#x2F;带title: ![alt](link &quot;嘤嘤嘤233&quot;) &#x2F;</span><br><span class="line">2-5内容引用: &gt; 举头望明月，低头思故乡 by-李白</span><br><span class="line">            &gt; 明日复明日，万事成蹉跎</span><br><span class="line">2-6文字加粗: **粗体** &#x2F; _粗体_</span><br><span class="line">2-7文字斜体: *斜体* &#x2F; _斜体_</span><br><span class="line">2-8加粗且斜体: ***粗体+斜体***</span><br><span class="line">2-9文本删除线: ~~删除线字体~~</span><br><span class="line">2-10单行代码引用: &#96;Hello World&#96;</span><br><span class="line">2-11分割线: ***</span><br><span class="line">2-12下划线: &lt;u&gt;下划线&lt;&#x2F;u&gt;</span><br><span class="line">2-13多行代码引用: 默认为bash &#96;&#96;&#96;bash &#x2F; &#96;&#96;&#96;        </span><br></pre></td></tr></table></figure>]]></content>
+      
+      
+      <categories>
+          
+          <category> 计算机 </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> 计算机 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
+      <title>2020年年终总结</title>
+      <link href="2020%E5%B9%B4%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93-202101001.html"/>
+      <url>2020%E5%B9%B4%E5%B9%B4%E7%BB%88%E6%80%BB%E7%BB%93-202101001.html</url>
+      
+        <content type="html"><![CDATA[<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/hint.css/2.4.1/hint.min.css"><p>回首2020年，突发的疫情，打乱了很多人的生活。甚至有人为此丧生。还记得2019年年初，我曾立下了很多flag，截至到年底，一大部分目标都没完成。</p><a id="more"></a><h5 id="1-生活方面"><a class="header-anchor" href="#1-生活方面">¶</a>1.生活方面</h5><p>由于新冠的原因，20年过年期间在家呆了大半月，2月底才去工作，去被打工点又隔离了半个月。同样由于新冠肆虐，21年春节大概率外地过年<sup id="fnref:1"><a href="#fn:1" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="2021年春节部分省市疫情形势严峻">[1]</span></a></sup>，还是挺悲催的。真心希望，春节期间，疫情能够得到有效控制，能让人过个祥和年。希望人与人之间，能少点歧视，多点宽容。</p><p>21年个人数码产品如下列表:</p><ul><li>20年之前: mi6、荣耀8、宏碁笔电</li><li>20年购买:iphone6s、<s>ipadmini5</s>、神州笔电</li></ul><p>希望以上电子产品能再战3年，希望21年要理性消费。</p><h5 id="2-工作方面"><a class="header-anchor" href="#2-工作方面">¶</a>2.工作方面</h5><p>2月底返回工作岗位，实话实说，20年进度很小，工作也是一眼能看到头。家里也很少回<sup id="fnref:2"><a href="#fn:2" rel="footnote"><span class="hint--top hint--error hint--medium hint--rounded hint--bounce" aria-label="1是假少，2是来回路费太贵">[2]</span></a></sup>，工作地点也不固定，今天在这干一个月，明天在那干几月，最离谱的是快过年，又被掉走了，真的是金牌“替补”，工作任务是越来越重，工资是没长一分钱，而且还很不稳定，也是醉了。希望21年能找到让我满意的工作。</p><div id="footnotes"><hr><div id="footnotelist"><ol style="list-style: none; padding-left: 0; margin-left: 40px"><li id="fn:1"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">1.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">2021年春节部分省市疫情形势严峻<a href="#fnref:1" rev="footnote"> ↩</a></span></li><li id="fn:2"><span style="display: inline-block; vertical-align: top; padding-right: 10px; margin-left: -40px">2.</span><span style="display: inline-block; vertical-align: top; margin-left: 10px;">1是假少，2是来回路费太贵<a href="#fnref:2" rev="footnote"> ↩</a></span></li></ol></div></div>]]></content>
       
       
       <categories>
